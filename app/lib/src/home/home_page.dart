@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
+
 import '../shared/widgets/user_image_button.dart';
 //import 'widgets/custom_drawer.dart';
 
@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
       ),
       body: Column(
         children: [
-          SegmentedControlApp<int>(
+          SegmentedButton<int>(
             segments: [
               ButtonSegment(
                 value: 0,
